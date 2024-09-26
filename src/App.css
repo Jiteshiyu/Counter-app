@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.app {
+  min-width: 320px;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-heading {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.count {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 0.7rem;
+}
+
+.btn {
+  color: #fff;
+  margin: 1rem;
+  padding: 0.3rem 1.2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.05s linear;
+}
+
+.reset-btn {
+  background-color: #007bff;
+}
+
+.dec-btn {
+  background-color: #dc3545;
+}
+
+.inc-btn {
+  background-color: #28a745;
+}
+
+.reset-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.01);
+}
+
+.dec-btn:hover {
+  background-color: #c82333;
+  transform: scale(1.01);
+}
+
+.inc-btn:hover {
+  background-color: #218838;
+  transform: scale(1.01);
+}
