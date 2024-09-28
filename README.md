@@ -49,7 +49,7 @@ Ensure you have Node.js and npm installed. If not, you can download them from [h
 
    ```bash
    git clone https://github.com/Jiteshiyu/Tallytide.git
-   cd Counter-app
+   cd Tallytide
    ```
 
 2. Install the dependencies:
