@@ -1,4 +1,4 @@
-# Counter App with Context API
+# Tallytide
 
 This is a simple Counter App built with React.js demonstrating the use of Context API for managing state globally. The app allows users to increment, decrement, and reset the counter value.
 
@@ -48,7 +48,7 @@ Ensure you have Node.js and npm installed. If not, you can download them from [h
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Jiteshiyu/Counter-app.git
+   git clone https://github.com/Jiteshiyu/Tallytide.git
    cd Counter-app
    ```
 
