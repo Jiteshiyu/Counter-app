@@ -40,7 +40,7 @@ body {
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
-  transition: all 1s linear;
+  transition: all 0.07s linear;
 }
 
 /* Button colors */
