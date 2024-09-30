@@ -12,6 +12,7 @@ body {
 .app {
   min-width: 320px;
   padding: 1rem;
+  text-align: center;
   margin-right: 7rem;
 }
 
