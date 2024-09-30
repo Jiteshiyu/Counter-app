@@ -13,20 +13,21 @@ body {
 .app {
   min-width: 320px;
   padding: 1rem;
+  margin-right: 2.5re,;
   border-radius: 0.5rem;
   text-align: center;
 }
 
 /* Heading */
 .app-heading {
-  color: #fff;
+  color: #000;
   font-size: 2.2rem;
   font-weight: bold;
 }
 
 /* Count display */
 .count {
-  color: #fff;
+  color: #000;
   font-size: 3.5rem;
   font-style: italic;
   margin-bottom: 0.7rem;
