@@ -20,7 +20,7 @@ export default function Controls() {
       </button>
     </div>
     <div>
-      <button className="reset-btn btn" onClick={square}>
+      <button className="square-btn btn" onClick={square}>
         Get Square
       </button>
     </div>
