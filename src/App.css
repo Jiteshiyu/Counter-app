@@ -58,6 +58,10 @@ body {
   background-color: #28a745;
 }
 
+.sq-btn {
+  background-color: #dc3545;
+}
+
 /* Hover effects */
 .reset-btn:hover {
   background-color: #0056b3;
@@ -70,3 +74,8 @@ body {
 .inc-btn:hover {
   background-color: #218838;
 }
+
+.sq-btn {
+  color: #f41212;
+}
+
