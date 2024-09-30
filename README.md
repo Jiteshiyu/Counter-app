@@ -18,7 +18,6 @@ This is a simple Counter App built with React.js
 - [How It Works](#how-it-works)
 - [Future Improvements](#future-improvements)
 - [Challenges and Learnings](#challenges-and-learnings)
-- [Contributing](#contributing)
 
 ## Demo
 
@@ -87,26 +86,16 @@ This app uses Context API to manage the state of the counter. The `CounterContex
 
 ## Future Improvements
 
-- Add local storage support: Save the counter state between page reloads using local storage.
-- Add undo/redo functionality: Allow users to revert the last action (increment/decrement) or reapply it.
-- Multiple Counters: Extend the app to handle multiple counters with independent states.
-- Accessibility Enhancements: Improve the app's accessibility to meet WCAG guidelines (e.g., keyboard navigation and screen reader support).
+- **Add local storage support:** Save the counter state between page reloads using local storage.
+- **Add undo/redo functionality:** Allow users to revert the last action (increment/decrement) or reapply it.
+- **Multiple Counters:** Extend the app to handle multiple counters with independent states.
+- **Accessibility Enhancements:** Improve the app's accessibility to meet WCAG guidelines (e.g., keyboard navigation and screen reader support).
 
 ## Challenges and Learnings
 
-- State Management with Context API: Implementing Context API for the first time was a valuable learning experience. It helped eliminate prop drilling, which simplified component communication.
-- React Component Structure: Structuring the app with clear separation between logic (`Controls`) and display (`Count`) components made the code more modular and reusable.
-- Styling Consistency: Managing consistent and responsive styling across components was important for a cohesive UI. Tailwind CSS or Styled Components could be explored in future versions to streamline this.
-
-## Contributing
-
-Contributions are welcome! If you'd like to improve the app or add features, feel free to open an issue or submit a pull request.
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Open a pull request
+- **State Management with Context API:** Implementing Context API for the first time was a valuable learning experience. It helped eliminate prop drilling, which simplified component communication.
+- **React Component Structure:** Structuring the app with clear separation between logic (`Controls`) and display (`Count`) components made the code more modular and reusable.
+- **Styling Consistency:** Managing consistent and responsive styling across components was important for a cohesive UI. Tailwind CSS or Styled Components could be explored in future versions to streamline this.
 
 ## Support
 Give a 🌟 to this repo if you liked it .
