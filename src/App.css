@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif; 
-  background: url("/counter-bg.png")
+  background: url("https://plus.unsplash.com/premium_photo-1661295707785-05104cd0e148")
     no-repeat center;
   background-size: cover;
   height: 100vh; 
@@ -30,7 +30,7 @@ body {
   color: #000;
   font-size: 3.5rem;
   font-style: italic;
-  margin-bottom: 0.7rem;
+  margin-bottom: 1rem;
 }
 
 /* Button styles */
