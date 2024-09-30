@@ -8,7 +8,7 @@ export default function Count() {
   return (
     <div>
       {/* Display the current count in an h2 element */}
-      <h2 className="count">Current Count: {count}</h2>
+      <h2 className="count">{count}</h2>
     </div>
   );
 }
