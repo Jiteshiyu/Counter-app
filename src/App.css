@@ -4,7 +4,7 @@ body {
   background-size: cover;
   height: 100vh; 
   display: flex; 
-  justify-content: center; 
+  justify-content: right; 
   align-items: center; 
 }
 
@@ -12,8 +12,7 @@ body {
 .app {
   min-width: 320px;
   padding: 1rem;
-  margin-right: 2.5re,;
-  border-radius: 0.5rem;
+  margin-right: 4rem;
   text-align: center;
 }
 
