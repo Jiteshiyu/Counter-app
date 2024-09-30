@@ -2,21 +2,26 @@ import { useContext } from "react";
 import { CounterContext } from "../context/index.jsx";
 
 export default function Controls() {
-  const { increment, decrement, reset } = useContext(CounterContext);
+  const { increment, decrement, reset, square } = useContext(CounterContext);
 
   return (
     <div>
       {/* Button to increment the counter */}
       <button className="inc-btn btn" onClick={increment}>
-        Increment
+        Up
       </button>
       {/* Button to decrement the counter */}
       <button className="dec-btn btn" onClick={decrement}>
-        Decrement
+        Down
       </button>
       {/* Button to reset the counter */}
       <button className="reset-btn btn" onClick={reset}>
         Reset
+      </button>
+    </div>
+    <div>
+      <button className="reset-btn btn" onClick={square}>
+        Get Square
       </button>
     </div>
   );
