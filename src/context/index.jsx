@@ -10,7 +10,7 @@ export default function CounterState({ children }) {
   // Functions to modify the count
   const increment = () => setCount((prevCount) => prevCount + 1);
   const decrement = () => setCount((prevCount) => prevCount - 1);
-  const square = () => setCount((prevCount) => prevCount * 2);
+  const square = () => setCount((prevCount) => prevCount ** 2);
   const reset = () => setCount(0);
 
   return (
