@@ -3,8 +3,9 @@ import Counter from "./components/Counter.jsx";
 
 export default function App() {
   return (
+    // Counter App
     <div className="app">
-      {/* Main heading for the Counter App */}
+      {/* App heading */}
       <h1 className="app-heading">Tallytide</h1>
       {/* Rendering the Counter component */}
       <Counter />
