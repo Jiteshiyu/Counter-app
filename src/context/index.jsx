@@ -15,7 +15,7 @@ export default function CounterState({ children }) {
 
   return (
     <CounterContext.Provider value={{ count, increment, decrement, reset, square }}>
-      {children} {/* Render children components */}
+      {children} {/* Return state context */}
     </CounterContext.Provider>
   );
 }
