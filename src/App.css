@@ -1,14 +1,15 @@
+/* Body Styles */
 body {
-  font-family: Arial, Helvetica, sans-serif; 
+  font-family: Arial, Helvetica, sans-serif;
   background: url("/public/background.png") no-repeat center;
   background-size: cover;
-  height: 100vh; 
-  display: flex; 
-  justify-content: right; 
-  align-items: center; 
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
 
-/* Main app container */
+/* Main App Styles */
 .app {
   min-width: 320px;
   padding: 1rem;
@@ -16,14 +17,14 @@ body {
   margin-right: 9rem;
 }
 
-/* Heading */
+/* Heading Styles */
 .app-heading {
   color: #333;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
-/* Count display */
+/* Count Display Styles */
 .count {
   color: #333;
   font-size: 3.5rem;
@@ -31,7 +32,7 @@ body {
   margin: 0.5rem;
 }
 
-/* Button styles */
+/* Base Button Styles */
 .btn {
   color: #fff;
   margin: 1rem;
@@ -43,7 +44,7 @@ body {
   transition: all 0.07s linear;
 }
 
-/* Button colors */
+/* Button Colors */
 .reset-btn {
   background-color: #007bff;
 }
@@ -60,7 +61,7 @@ body {
   background-color: #333;
 }
 
-/* Hover effects */
+/* Button Hover Effects */
 .reset-btn:hover {
   background-color: #0056b3;
 }
@@ -77,4 +78,3 @@ body {
   color: #007fb4;
   background-color: #f4f4f4;
 }
-
