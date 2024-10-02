@@ -9,7 +9,7 @@ body {
   background-position: center;
   height: 100vh;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   overflow: hidden;
 }
@@ -23,14 +23,14 @@ body {
 
 /* Heading Styles */
 .app-heading {
-  color: #333;
+  color: #fff;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 /* Count Display Styles */
 .count {
-  color: #333;
+  color: #fff;
   font-size: 3.5rem;
   font-style: italic;
   margin: 0.5rem;
