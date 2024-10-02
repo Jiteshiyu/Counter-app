@@ -21,7 +21,7 @@ This is a simple Counter App built with React.js
 
 ## Demo
 
-You can view a live demo of the project [here](https://tallytide.netlify.app/).
+You can view a live demo of the project [Tallytide](https://tallytide.netlify.app/).
 
 ## Features
 
