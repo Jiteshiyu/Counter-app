@@ -62,7 +62,8 @@ body {
 }
 
 .sq-btn {
-  background-color: #333;
+  color: #007fb4;
+  background-color: #f4f4f4;
 }
 
 /* Button Hover Effects */
@@ -78,7 +79,3 @@ body {
   background-color: #218838;
 }
 
-.sq-btn:hover {
-  color: #007fb4;
-  background-color: #f4f4f4;
-}
